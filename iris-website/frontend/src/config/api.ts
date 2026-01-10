@@ -4,7 +4,7 @@
  */
 
 // Backend API base URL - Updated for simplified backend
-export const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000';
+export const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5001';
 
 // API Endpoints - Updated for simplified LLVM optimization backend
 export const API_ENDPOINTS = {
@@ -14,17 +14,17 @@ export const API_ENDPOINTS = {
   standard: `${API_BASE_URL}/api/llvm/standard`,
   compare: `${API_BASE_URL}/api/llvm/compare`,
   health: `${API_BASE_URL}/api/llvm/health`,
-  
+
   // Legacy endpoints (for backward compatibility - will redirect to new endpoints)
   compareFile: `${API_BASE_URL}/api/llvm/compare`,
   compareQuick: `${API_BASE_URL}/api/llvm/compare`,
-  
+
   // Analytics (if needed, can be added later)
   analyticsModels: `${API_BASE_URL}/api/analytics/models`,
   analyticsFeatures: `${API_BASE_URL}/api/analytics/features`,
   analyticsPasses: `${API_BASE_URL}/api/analytics/passes`,
   analyticsSystem: `${API_BASE_URL}/api/analytics/system`,
-  
+
   // Utility
   status: `${API_BASE_URL}/api/llvm/health`,
   info: `${API_BASE_URL}/`,

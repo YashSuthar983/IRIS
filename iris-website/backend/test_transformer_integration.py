@@ -8,7 +8,7 @@ import json
 from pathlib import Path
 
 # API endpoint
-BASE_URL = "http://localhost:5000/api/llvm"
+BASE_URL = "http://localhost:5001/api/llvm"
 
 # Test C code samples
 TEST_CODE_SIMPLE = """

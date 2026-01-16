@@ -6,7 +6,7 @@
             - "training_programs/**"
             - "models/**"
             - "models_seqgen/**"
-            - "*. py"
+            - "*.py"
 
 - label: "inference"
   any:
@@ -41,7 +41,7 @@
   any:
     - changed-files:
         - any-glob-patterns:
-            - "*. md"
+            - "*.md"
             - "iris-website/**"
 
 # Development & Infrastructure
@@ -49,17 +49,17 @@
   any: 
     - changed-files:
         - any-glob-patterns: 
-            - ". github/workflows/**"
-            - ". github/labeler.yml"
+            - ".github/workflows/**"
+            - ".github/labeler.yml"
 
 - label: "devops"
   any:
     - changed-files:
         - any-glob-patterns:
-            - ". github/**"
+            - ".github/**"
             - ".vscode/**"
-            - ". gitignore"
-            - ". gitattributes"
+            - ".gitignore"
+            - ".gitattributes"
 
 # Configuration
 - label: "configuration"

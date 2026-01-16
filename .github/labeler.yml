@@ -13,14 +13,12 @@
     - changed-files:
         - any-glob-patterns:
             - "inference_folder/**"
-
 - label: "preprocessing"
   any:
     - changed-files:
         - any-glob-patterns:
             - "preprocessing/**"
             - "preprocessing_output/**"
-
 - label: "data"
   any:
     - changed-files:
